@@ -7,7 +7,6 @@ import torch.utils
 from torch.utils.data import DataLoader # turns data into batches 
 import torchvision.datasets as datasets
 import torchvision.transforms as transforms # transformations on the data
-from tqdm import tqdm
 
 # CUDA
 device = 'cuda' if torch.cuda.is_available() else 'cpu'
