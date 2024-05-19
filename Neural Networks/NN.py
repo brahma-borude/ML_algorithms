@@ -15,7 +15,7 @@ device = 'cuda' if torch.cuda.is_available() else 'cpu'
 batch_size = 128
 
 training_data = datasets.MNIST(
-    root='./datasets', train=True, transform=transforms.ToTensor(), download=False
+    root='./datasets', train=True, transform=transforms.ToTensor(), download=True
     
 )
 train_loader = DataLoader(
@@ -23,7 +23,7 @@ train_loader = DataLoader(
 )
 
 testing_data = datasets.MNIST(
-    root='./datasets', train=False, transform=transforms.ToTensor(), download=False
+    root='./datasets', train=False, transform=transforms.ToTensor(), download=True
 )
 test_loaders = DataLoader(
     testing_data, batch_size=batch_size, shuffle=False
