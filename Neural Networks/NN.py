@@ -102,4 +102,4 @@ with torch.inference_mode():
         num_correct += (prediction==labels).sum().item()
         num_smaples += prediction.size(0)
         
-print(f"{num_correct}/{num_smaples} are correct with accuracy : {float(num_correct)/float(num_smaples)*100}%")
+print(f"{num_correct}/{num_smaples} are correct with accuracy : {float(num_correct)/float(num_smaples)*100:.2f}%")
