@@ -6,6 +6,4 @@ This repository documents my personal journey through the world of machine learn
 The repository is organized into the following directories, which will be populated as I learn and implement new topics:
 
 * Algorithms: Contains implementations of classic machine learning algorithms such as linear regression, decision trees, support vector machines, etc.
-* Neural Networks: Includes various neural network architectures such as feedforward neural networks, convolutional neural networks (CNNs), recurrent neural networks (RNNs), etc.
-* Deep Learning: Features deep learning models and techniques including GANs, autoencoders, and transformers.
-* Data Preprocessing: Scripts and functions for data cleaning, normalization, feature selection, and more.
+* Neural Networks: Includes various neural network architectures such as feedforward neural networks, convolutional neural networks (CNNs)
